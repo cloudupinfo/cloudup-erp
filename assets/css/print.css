@@ -1,0 +1,80 @@
+@media print{
+	#print-report table tbody tr td{
+		padding:2px 6px !important;
+	}
+}
+/* Invoice Generate Css Start*/
+.invoice-main-div {
+    margin: 0 auto;
+    width: 90%;
+}
+.invoice-main-inner-div {
+    border: 3px solid #000000;
+    padding: 10px;
+}
+.invoice-row {
+    margin-bottom: 12px;
+	width: 100%;
+	overflow: hidden;
+}
+.invoice-row-col {
+    display: inline-block;
+}
+.invoice-row-title {
+    font-size: 18px;
+	display: inline-block;
+	font-weight: bold;
+}
+.invoice-row-text {
+    border-bottom: 2px solid #000000;
+    font-size: 17px;
+	display: inline-block;
+	text-align:center;
+}
+.invoice-row-box {
+    border: 2px solid #000000;
+    float: left;
+    margin-right: 2%;
+    padding: 10px;
+}
+.invoice-row-box-title {
+    font-size: 26px;
+	display: inline-block;
+	font-weight: bold;
+}
+.invoice-row-box-text {
+	display: inline-block;
+	font-size: 20px;
+}
+.invoice-main-header img{
+	width:100%;
+}
+/* Invoice Generate Css End*/
+
+
+.navbar {
+	display: none;
+}
+.main-navigation{
+	display: none;
+}
+.hidden-print {
+	display: none;
+}
+.breadcrumb {
+	display: none;
+}
+.page-header {
+	display: none;
+}
+.footer {
+	display: none;
+}
+.main-container {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.main-content .container{
+	min-height: auto !important;
+	border: none !important;
+}

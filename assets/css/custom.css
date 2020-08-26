@@ -1,0 +1,182 @@
+.help-block {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+/* Cashier Search chassis no drop-down*/
+.chasier_chassis_ul {
+    list-style: outside none none;
+    margin: 0;
+    max-height: 200px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 0;
+    position: relative;
+}
+.chasier_chassis_ul li {
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+    padding: 6px 12px;
+}
+.chasier_chassis_ul li:hover {
+    background-color: #007aff;
+    color: #ffffff;
+}
+.chasier_chassis_ul li:active {
+    background-color: #007aff;
+    color: #ffffff;
+}
+
+/* Gatepass Search chassis no drop-down*/
+.gatepass_chassis_ul {
+    list-style: outside none none;
+    margin: 0;
+    max-height: 200px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 0;
+    position: relative;
+}
+.gatepass_chassis_ul li {
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+    padding: 6px 12px;
+}
+.gatepass_chassis_ul li:hover {
+    background-color: #007aff;
+    color: #ffffff;
+}
+.gatepass_chassis_ul li:active {
+    background-color: #007aff;
+    color: #ffffff;
+}
+
+/* Veihicle Status Search chassis no drop-down*/
+.veihicle_status_chassis_ul {
+    list-style: outside none none;
+    margin: 0;
+    max-height: 200px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 0;
+    position: relative;
+}
+.veihicle_status_chassis_ul li {
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+    padding: 6px 12px;
+}
+.veihicle_status_chassis_ul li:hover {
+    background-color: #007aff;
+    color: #ffffff;
+}
+.veihicle_status_chassis_ul li:active {
+    background-color: #007aff;
+    color: #ffffff;
+}
+
+/* Cashier Search chassis view page*/
+.product-view-left {
+    border-left: 1px solid #c8c7cc;
+    border-right: 1px solid #c8c7cc;
+    border-top: 1px solid #c8c7cc;
+    padding: 0;
+}
+.product-view-left .product-view-title, .product-view-left .product-view-data {
+    border-bottom: 1px solid #c8c7cc;
+    border-right: 1px solid #c8c7cc;
+}
+.product-view-left .product-view-title, .product-view-right .product-view-title {
+    color: #007aff;
+}
+.product-view-right {
+    border-right: 1px solid #c8c7cc;
+    border-top: 1px solid #c8c7cc;
+    padding: 0;
+}
+.product-view-right .product-view-title, .product-view-right .product-view-data {
+    border-bottom: 1px solid #c8c7cc;
+    border-left: 1px solid #c8c7cc;
+}
+.required-field {
+    color: #ff0000;
+}
+.product-form-group{
+	overflow:hidden;
+	clear:both;
+}
+/* Invoice Generate Css*/
+
+.invoice-main-div {
+    margin: 0 auto;
+    width: 90%;
+}
+.invoice-main-inner-div {
+    border: 3px solid #000000;
+    padding: 10px;
+}
+.invoice-row {
+    margin-bottom: 12px;
+	width: 100%;
+	overflow: hidden;
+}
+.invoice-row-col {
+    display: inline-block;
+}
+.invoice-row-title {
+    font-size: 18px;
+	display: inline-block;
+	font-weight: bold;
+}
+.invoice-row-text {
+    border-bottom: 2px solid #000000;
+    font-size: 17px;
+	display: inline-block;
+	text-align:center;
+}
+.invoice-row-box {
+    border: 2px solid #000000;
+    float: left;
+    margin-right: 2%;
+    padding: 10px;
+}
+.invoice-row-box-title {
+    font-size: 26px;
+	display: inline-block;
+	font-weight: bold;
+}
+.invoice-row-box-text {
+	display: inline-block;
+	font-size: 20px;
+}
+.invoice-main-header img{
+	width:100%;
+}
+
+@media print{
+	.product-view-left {
+		border: none !important;
+		padding: 15px 0 !important;
+	}
+	.product-view-right {
+		border: none !important;
+		padding: 15px 0 !important;
+	}
+	.product-view-left .product-view-title, .product-view-right .product-view-title {
+		color: #007aff;
+	}
+	.product-view-left .product-view-title, .product-view-left .product-view-data {
+		border: none !important;
+	}
+	.product-view-right .product-view-title, .product-view-right .product-view-data {
+		border: none !important;
+	}
+	.product-view-main h4{
+		font-size:14px;
+	}
+	#print-report table tbody tr td{
+		padding:2px 6px !important;
+	}
+}

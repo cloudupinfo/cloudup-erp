@@ -1,9 +1,8 @@
-#Two Wheeler Showroom Management System (tsmgmt)<br />
-Demo URL - http://syntegows.com/tsmgmt/<br />
-Username - admin@admin.com<br />
-Password - admin<br />
+#Two Wheeler Showroom Management System (tsmgmt)\
+Demo URL - http://syntegows.com/tsmgmt/\
+Username - admin@admin.com\
+Password - admin\
 <br /><br />
-
 Step -> 1<br />
 	>> Create Database Name will be(Ex. tsmgmt)<br />
 Step -> 2<br />

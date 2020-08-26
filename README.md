@@ -11,6 +11,8 @@ Step -> 1<br>
 Step -> 2<br>
 	>> config/PDO.php file open<br>
 	>> Add Database Connection Detail<br>
+	
+![alt text](https://github.com/cgvaghela/tsmgmt/config-PDO.png)<br>
 <br>
 
 Run ex. http://localhost/tsmgmt/

@@ -473,7 +473,6 @@ class db extends configDatabase
 		return $string;
 	}
 }
-
 define("IMAGE_PATH_DISPLAY","images/");
 define("IMAGE_PATH_UPLOAD","../images/");
 define("USER_IMAGE_PATH_DISPLAY","admin/images/");

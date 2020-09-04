@@ -3,7 +3,7 @@ define('HomeURL',"");?>
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 <head>
-	<title>Two Wheeler Showroom Management</title>
+	<title>Cloudup-ERP</title>
 	<!-- start: META -->
 	<meta charset="utf-8" />
 	<!-- start: MAIN CSS -->

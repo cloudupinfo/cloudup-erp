@@ -1,7 +1,7 @@
 <!-- start: FOOTER -->
 <div class="footer clearfix">
 	<div class="footer-inner">
-		2016 - <?php echo date('Y');?> &copy; by <a href="index.php"> Two Wheeler Showroom Management</a>
+		2020 - <?php echo date('Y');?> &copy; by <a href="index.php"> Cloudup-ERP</a>
 	</div>
 	<div class="footer-items">
 		<span class="go-top"><i class="clip-chevron-up"></i></span>
